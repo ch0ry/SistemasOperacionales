@@ -21,7 +21,7 @@ Se inician 4 workers ejercitando la CPU secuencialmente ejecutando todos los dif
 	(base) ➜  ~ uptime
 	 14:26:19 up 14 min,  1 user,  load average: 2,23, 1,23, 0,72
 
-## Aqui va la grafica de cpu
+<img title="cpu graphics" alt="Alt text" src="cpu.png">
 
 #### Stress test memory
 
@@ -37,7 +37,7 @@ Se puebla la memoria. Usando nmap N bytes por cada worker vm, el default es 256M
 	stress-ng: info:  [12728]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
 	stress-ng: info:  [12728] vm              5405918     60.03    106.84     10.36     90054.30       46125.58
 
-## Aqui va la grafica de memoria
+<img title="mem graphics" alt="Alt text" src="mem.png">
 
 #### Stress test threads
 
