@@ -1,0 +1,8 @@
+ 15:14:51 up  1:02,  1 user,  load average: 3,32, 2,24, 2,35
+stress-ng: info:  [12651] setting to a 60 second run per stressor
+stress-ng: info:  [12651] dispatching hogs: 2 vm
+stress-ng: info:  [12651] successful run completed in 60.04s (1 min, 0.04 secs)
+stress-ng: info:  [12651] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [12651]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [12651] vm              5386288     60.04    108.23     10.12     89717.75       45511.52
+ 15:15:51 up  1:03,  1 user,  load average: 3,04, 2,39, 2,40

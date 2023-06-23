@@ -1,0 +1,8 @@
+ 14:46:09 up 34 min,  1 user,  load average: 4,21, 3,22, 2,01
+stress-ng: info:  [9238] setting to a 60 second run per stressor
+stress-ng: info:  [9238] dispatching hogs: 4 cpu
+stress-ng: info:  [9238] successful run completed in 60.01s (1 min, 0.01 secs)
+stress-ng: info:  [9238] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [9238]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [9238] cpu              322757     60.00    239.23      0.08      5379.04        1348.70
+ 14:47:09 up 35 min,  1 user,  load average: 4,11, 3,38, 2,14

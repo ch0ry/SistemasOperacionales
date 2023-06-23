@@ -1,0 +1,90 @@
+ 15:46:54 up  1:34,  1 user,  load average: 0,54, 0,58, 1,00
+stress-ng: info:  [14620] setting to a 60 second run per stressor
+stress-ng: info:  [14620] dispatching hogs: 6 userfaultfd
+stress-ng: info:  [14626] stress-ng-userfaultfd: stressor will be skipped, insufficient privilege
+stress-ng: info:  [14620] successful run completed in 0.00s
+stress-ng: info:  [14620] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [14620]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [14620] userfaultfd           0      0.00      0.00      0.00         0.00           0.00
+stress-ng: info:  [14620] Cannot read perf counters, do not have CAP_SYS_ADMIN capability or /proc/sys/kernel/perf_event_paranoid is set too high (4)
+ 15:46:54 up  1:34,  1 user,  load average: 0,54, 0,58, 1,00
+ 15:50:16 up  1:38,  2 users,  load average: 9,73, 5,14, 2,71
+stress-ng: info:  [15372] setting to a 60 second run per stressor
+stress-ng: info:  [15372] dispatching hogs: 6 userfaultfd
+stress-ng: info:  [15372] successful run completed in 60.01s (1 min, 0.01 secs)
+stress-ng: info:  [15372] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: info:  [15372]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: info:  [15372] userfaultfd    18181246     60.00      7.47    163.17    303014.45      106547.39
+stress-ng: info:  [15372] userfaultfd:
+stress-ng: info:  [15372]            806.283.270.510 CPU Cycles                     13,44 B/sec
+stress-ng: info:  [15372]            723.359.095.830 Instructions                   12,05 B/sec (0,897 instr. per cycle)
+stress-ng: info:  [15372]            142.940.044.734 Branch Instructions             2,38 B/sec
+stress-ng: info:  [15372]              1.703.109.318 Branch Misses                  28,38 M/sec ( 1,19%)
+stress-ng: info:  [15372]             36.422.771.124 Stalled Cycles Frontend         0,61 B/sec
+stress-ng: info:  [15372]            318.953.656.986 Stalled Cycles Backend          5,32 B/sec
+stress-ng: info:  [15372]             76.815.757.536 Cache References                1,28 B/sec
+stress-ng: info:  [15372]              2.562.917.034 Cache Misses                   42,71 M/sec ( 3,34%)
+stress-ng: info:  [15372]            290.100.973.464 Cache L1D Read                  4,83 B/sec
+stress-ng: info:  [15372]             17.415.544.098 Cache L1D Read Miss             0,29 B/sec
+stress-ng: info:  [15372]              3.928.023.846 Cache L1D Prefetch             65,46 M/sec
+stress-ng: info:  [15372]            209.334.225.792 Cache L1I Read                  3,49 B/sec
+stress-ng: info:  [15372]              5.562.966.318 Cache L1I Read Miss            92,71 M/sec
+stress-ng: info:  [15372]              2.637.374.688 Cache DTLB Read                43,95 M/sec
+stress-ng: info:  [15372]                328.288.842 Cache DTLB Read Miss            5,47 M/sec
+stress-ng: info:  [15372]                     63.876 Cache ITLB Read                 1,06 K/sec
+stress-ng: info:  [15372]                  3.262.758 Cache ITLB Read Miss           54,37 K/sec
+stress-ng: info:  [15372]            143.200.936.686 Cache BPU Read                  2,39 B/sec
+stress-ng: info:  [15372]              1.688.997.534 Cache BPU Read Miss            28,15 M/sec
+stress-ng: info:  [15372]            326.423.889.462 CPU Clock                       5,44 B/sec
+stress-ng: info:  [15372]            326.516.120.808 Task Clock                      5,44 B/sec
+stress-ng: info:  [15372]                 18.453.798 Page Faults Total               0,31 M/sec
+stress-ng: info:  [15372]                        324 Page Faults Minor               5,40 /sec 
+stress-ng: info:  [15372]                 18.453.468 Page Faults Major               0,31 M/sec
+stress-ng: info:  [15372]                 37.000.434 Context Switches                0,62 M/sec
+stress-ng: info:  [15372]                    244.716 Cgroup Switches                 4,08 K/sec
+stress-ng: info:  [15372]                      1.074 CPU Migrations                 17,90 /sec 
+stress-ng: info:  [15372]                          0 Alignment Faults                0,00 /sec 
+stress-ng: info:  [15372]                          0 Emulation Faults                0,00 /sec 
+stress-ng: info:  [15372]                 18.453.762 Page Faults User                0,31 M/sec
+stress-ng: info:  [15372]                         42 Page Faults Kernel              0,70 /sec 
+stress-ng: info:  [15372]                 74.031.822 System Call Enter               1,23 M/sec
+stress-ng: info:  [15372]                 74.031.816 System Call Exit                1,23 M/sec
+stress-ng: info:  [15372]                     72.096 Kmalloc                         1,20 K/sec
+stress-ng: info:  [15372]                     71.856 Kmalloc Node                    1,20 K/sec
+stress-ng: info:  [15372]                    147.852 Kfree                           2,46 K/sec
+stress-ng: info:  [15372]                    289.098 Kmem Cache Alloc                4,82 K/sec
+stress-ng: info:  [15372]                        906 Kmem Cache Alloc Node          15,10 /sec 
+stress-ng: info:  [15372]                    293.838 Kmem Cache Free                 4,90 K/sec
+stress-ng: info:  [15372]                 36.941.058 MM Page Alloc                   0,62 M/sec
+stress-ng: info:  [15372]                 36.901.638 MM Page Free                    0,61 M/sec
+stress-ng: info:  [15372]                 74.279.532 RCU Utilization                 1,24 M/sec
+stress-ng: info:  [15372]                      1.650 Sched Migrate Task             27,50 /sec 
+stress-ng: info:  [15372]                          0 Sched Move NUMA                 0,00 /sec 
+stress-ng: info:  [15372]                 18.685.350 Sched Wakeup                    0,31 M/sec
+stress-ng: info:  [15372]                          0 Sched Proc Exec                 0,00 /sec 
+stress-ng: info:  [15372]                          6 Sched Proc Exit                 0,10 /sec 
+stress-ng: info:  [15372]                         12 Sched Proc Fork                 0,20 /sec 
+stress-ng: info:  [15372]                        180 Sched Proc Free                 3,00 /sec 
+stress-ng: info:  [15372]                          0 Sched Proc Hang                 0,00 /sec 
+stress-ng: info:  [15372]                         12 Sched Proc Wait                 0,20 /sec 
+stress-ng: info:  [15372]                 37.000.434 Sched Switch                    0,62 M/sec
+stress-ng: info:  [15372]                          6 Signal Generate                 0,10 /sec 
+stress-ng: info:  [15372]                         18 Signal Deliver                  0,30 /sec 
+stress-ng: info:  [15372]                     37.986 IRQ Entry                     633,05 /sec 
+stress-ng: info:  [15372]                     37.986 IRQ Exit                      633,05 /sec 
+stress-ng: info:  [15372]                     71.226 Soft IRQ Entry                  1,19 K/sec
+stress-ng: info:  [15372]                     71.226 Soft IRQ Exit                   1,19 K/sec
+stress-ng: info:  [15372]                        126 NMI handler                     2,10 /sec 
+stress-ng: info:  [15372]                          6 Writeback Dirty Inode           0,10 /sec 
+stress-ng: info:  [15372]                          0 Migrate MM Pages                0,00 /sec 
+stress-ng: info:  [15372]                          0 SKB Consume                     0,00 /sec 
+stress-ng: info:  [15372]                          0 SKB Kfree                       0,00 /sec 
+stress-ng: info:  [15372]                          0 IOMMU IO Page Fault             0,00 /sec 
+stress-ng: info:  [15372]                          0 IOMMU Map                       0,00 /sec 
+stress-ng: info:  [15372]                      1.866 IOMMU Unmap                    31,10 /sec 
+stress-ng: info:  [15372]                          0 Filemap page-cache add          0,00 /sec 
+stress-ng: info:  [15372]                          0 Filemap page-cache del          0,00 /sec 
+stress-ng: info:  [15372]                          0 OOM Compact Retry               0,00 /sec 
+stress-ng: info:  [15372]                          0 OOM Wake Reaper                 0,00 /sec 
+stress-ng: info:  [15372]                          0 Thermal Zone Trip               0,00 /sec 
+ 15:51:16 up  1:39,  2 users,  load average: 10,35, 6,14, 3,20
